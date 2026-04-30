@@ -50,7 +50,7 @@
     <nav class="bg-white border-b border-gray-200 px-4 py-4 sticky top-14 z-50">
         <div class="max-w-6xl mx-auto flex items-center justify-between">
             <div class="text-xl font-bold text-gray-900">Sedding Data Corp</div>
-            <button class="bg-orange-500 hover:bg-orange-600 text-white font-semibold text-sm px-6 py-2 rounded-lg transition-all hover:scale-105 shadow-md cursor-pointer">
+            <button id="navGetFreeLeads" class="bg-orange-500 hover:bg-orange-600 text-white font-semibold text-sm px-6 py-2 rounded-lg transition-all hover:scale-105 shadow-md cursor-pointer">
                 Get Free Leads
             </button>
         </div>
@@ -719,6 +719,18 @@
                 });
             }
         });
+
+        // Specific handler for navigation button
+        const navButton = document.getElementById('navGetFreeLeads');
+        if (navButton) {
+            navButton.addEventListener('click', function(e) {
+                e.preventDefault();
+                const contactSection = document.getElementById('contact');
+                if (contactSection) {
+                    contactSection.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        }
     </script>
 
     <!-- LEGAL SECTIONS - Hidden by default -->
