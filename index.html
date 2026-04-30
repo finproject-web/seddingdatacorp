@@ -457,9 +457,9 @@
                 <div>
                     <h3 class="text-xl font-bold mb-4">Legal</h3>
                     <ul class="space-y-2">
-                        <li><a href="privacy-policy.html" class="text-gray-400 hover:text-white transition-colors">Privacy Policy</a></li>
-                        <li><a href="terms-of-service.html" class="text-gray-400 hover:text-white transition-colors">Terms of Service</a></li>
-                        <li><a href="disclaimer.html" class="text-gray-400 hover:text-white transition-colors">Disclaimer</a></li>
+                        <li><a href="#privacy-policy" class="text-gray-400 hover:text-white transition-colors">Privacy Policy</a></li>
+                        <li><a href="#terms-of-service" class="text-gray-400 hover:text-white transition-colors">Terms of Service</a></li>
+                        <li><a href="#disclaimer" class="text-gray-400 hover:text-white transition-colors">Disclaimer</a></li>
                     </ul>
                 </div>
                 <div>
@@ -495,6 +495,131 @@
                     }
                 });
             }
+        });
+    </script>
+
+    <!-- LEGAL SECTIONS - Hidden by default -->
+    <div id="privacy-policy" class="fixed inset-0 bg-white z-50 overflow-y-auto hidden">
+        <div class="max-w-4xl mx-auto px-4 py-12">
+            <div class="flex justify-between items-center mb-8">
+                <h1 class="text-3xl md:text-4xl font-bold text-gray-900">Privacy Policy</h1>
+                <button onclick="closeLegalSection('privacy-policy')" class="text-gray-500 hover:text-gray-700 text-2xl">&times;</button>
+            </div>
+            <div class="prose prose-lg max-w-none">
+                <p class="text-gray-600 mb-6">Last updated: January 2024</p>
+                
+                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Information We Collect</h2>
+                <p class="text-gray-600 mb-4">We collect the following types of information from users who express interest in our services:</p>
+                <ul class="list-disc pl-6 text-gray-600 mb-6">
+                    <li>Name and contact information (phone number, email address)</li>
+                    <li>Company name and business details</li>
+                    <li>Geographic location (state, city)</li>
+                    <li>Industry type and service preferences</li>
+                    <li>IP address and browsing behavior</li>
+                    <li>Timestamp of inquiry submission</li>
+                </ul>
+
+                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">How We Use Information</h2>
+                <p class="text-gray-600 mb-4">We use collected information for the following purposes:</p>
+                <ul class="list-disc pl-6 text-gray-600 mb-6">
+                    <li>Generate and qualify leads for our business partners</li>
+                    <li>Match consumers with relevant service providers</li>
+                    <li>Improve our lead generation and marketing processes</li>
+                    <li>Communicate with users about their inquiries</li>
+                    <li>Analyze and optimize campaign performance</li>
+                    <li>Ensure compliance with legal requirements</li>
+                </ul>
+
+                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Contact Information</h2>
+                <p class="text-gray-600 mb-4">For privacy-related questions, contact us at:</p>
+                <div class="bg-gray-100 p-4 rounded-lg mb-6">
+                    <p class="text-gray-700"><strong>Email:</strong> privacy@seddingdata.com</p>
+                    <p class="text-gray-700"><strong>Phone:</strong> 1-800-LEADS-NOW</p>
+                    <p class="text-gray-700"><strong>Address:</strong> 123 Business Ave, Suite 100, New York, NY 10001</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="terms-of-service" class="fixed inset-0 bg-white z-50 overflow-y-auto hidden">
+        <div class="max-w-4xl mx-auto px-4 py-12">
+            <div class="flex justify-between items-center mb-8">
+                <h1 class="text-3xl md:text-4xl font-bold text-gray-900">Terms of Service</h1>
+                <button onclick="closeLegalSection('terms-of-service')" class="text-gray-500 hover:text-gray-700 text-2xl">&times;</button>
+            </div>
+            <div class="prose prose-lg max-w-none">
+                <p class="text-gray-600 mb-6">Last updated: January 2024</p>
+                
+                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Acceptance of Terms</h2>
+                <p class="text-gray-600 mb-6">By accessing and using Sedding Data Corp's services, you accept and agree to be bound by these Terms of Service.</p>
+
+                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Description of Service</h2>
+                <p class="text-gray-600 mb-4">Sedding Data Corp provides lead generation and data distribution services, including:</p>
+                <ul class="list-disc pl-6 text-gray-600 mb-6">
+                    <li>Generation of consumer leads for various industries</li>
+                    <li>Verification and qualification of lead data</li>
+                    <li>Distribution of leads to business partners</li>
+                    <li>Marketing and advertising services</li>
+                </ul>
+
+                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">No Guarantee Clause</h2>
+                <p class="text-gray-600 mb-6">We do not guarantee any specific results, conversions, or outcomes from the leads provided.</p>
+
+                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Contact Information</h2>
+                <p class="text-gray-600 mb-4">For questions about these Terms of Service, contact us at:</p>
+                <div class="bg-gray-100 p-4 rounded-lg mb-6">
+                    <p class="text-gray-700"><strong>Email:</strong> legal@seddingdata.com</p>
+                    <p class="text-gray-700"><strong>Phone:</strong> 1-800-LEADS-NOW</p>
+                    <p class="text-gray-700"><strong>Address:</strong> 123 Business Ave, Suite 100, New York, NY 10001</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="disclaimer" class="fixed inset-0 bg-white z-50 overflow-y-auto hidden">
+        <div class="max-w-4xl mx-auto px-4 py-12">
+            <div class="flex justify-between items-center mb-8">
+                <h1 class="text-3xl md:text-4xl font-bold text-gray-900">Disclaimer</h1>
+                <button onclick="closeLegalSection('disclaimer')" class="text-gray-500 hover:text-gray-700 text-2xl">&times;</button>
+            </div>
+            <div class="prose prose-lg max-w-none">
+                <p class="text-gray-600 mb-6">Last updated: January 2024</p>
+                
+                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">No Guarantee of Lead Conversion</h2>
+                <p class="text-gray-600 mb-6">Sedding Data Corp does not guarantee that any lead will convert into a sale or business relationship.</p>
+
+                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Leads Provided "As Is"</h2>
+                <p class="text-gray-600 mb-6">All leads are provided "as is" without any warranties, express or implied. Users should independently verify critical information.</p>
+
+                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Not Affiliated with Service Providers</h2>
+                <p class="text-gray-600 mb-6">Sedding Data Corp is an independent lead generation company and is not directly affiliated with any specific service providers.</p>
+
+                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Contact Information</h2>
+                <p class="text-gray-600 mb-4">For questions about this disclaimer, contact us at:</p>
+                <div class="bg-gray-100 p-4 rounded-lg mb-6">
+                    <p class="text-gray-700"><strong>Email:</strong> info@seddingdata.com</p>
+                    <p class="text-gray-700"><strong>Phone:</strong> 1-800-LEADS-NOW</p>
+                    <p class="text-gray-700"><strong>Address:</strong> 123 Business Ave, Suite 100, New York, NY 10001</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function closeLegalSection(sectionId) {
+            document.getElementById(sectionId).classList.add('hidden');
+        }
+
+        // Handle legal links
+        document.querySelectorAll('a[href^="#"]').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetSection = document.getElementById(targetId);
+                if (targetSection) {
+                    targetSection.classList.remove('hidden');
+                }
+            });
         });
     </script>
 </body>
