@@ -1,0 +1,38 @@
+n
+OUTPUT:
+Full website content ready to paste into my site
+
+/////////////////////////////////////////////////////////
+Improve the UI to match a professional US B2B lead generation company.
+
+Fix:
+- Remove any SaaS/dashboard look
+- Use clean sections with proper spacing
+- Use simple icons (not flashy)
+- Make it look like a SALES website, not a tool
+
+Add:
+- Section spacing (top/bottom padding)
+- Card shadows (light)
+- Consistent font sizes
+- Center alignment for key sections
+
+Ensure:
+- Pricing cards equal height
+- Buttons consistent
+- Mobile responsive
+
+
+Generate a TCPA consent checkbox text for a lead generation website form.
+
+Requirements:
+- Short but legally safe
+- Covers calls, SMS, and email
+- Mentions consent to be contacted by partners
+- Includes “not a condition of purchase”
+
+Make it professional and US-compliant.Add in Forms (IMPORTANT)
+
+Checkbox:
+
+☑ “I agree to be contacted…”
